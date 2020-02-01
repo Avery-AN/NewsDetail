@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  AveryTest
+//
+//  Created by Avery An on 2020/1/5.
+//  Copyright © 2020 Avery. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
+
+
+
+#define IS_IOS8_LATER           ([[[UIDevice currentDevice] systemVersion] floatValue] - 8. >= 0 ? YES :NO)
+#define UIHeight                [[UIScreen mainScreen] bounds].size.height
+#define UIWidth                 [[UIScreen mainScreen] bounds].size.width
+#define NavigationBarHeight     ([[UIScreen mainScreen] bounds].size.height - 812 >= 0 ? 88 : 64)

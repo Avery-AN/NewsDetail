@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D692A271F056851CED89B1D /* libPods-AveryTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5995301836652351EAAA16AA /* libPods-AveryTest.a */; };
+		BBAFC64B23C2C7A30027E810 /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAFC64423C2C7A30027E810 /* PageContentViewController.m */; };
+		BBAFC64C23C2C7A30027E810 /* ContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAFC64723C2C7A30027E810 /* ContentCell.m */; };
+		BBAFC64D23C2C7A30027E810 /* PageContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAFC64823C2C7A30027E810 /* PageContentView.m */; };
+		BBAFC65023C2C7BA0027E810 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAFC64F23C2C7BA0027E810 /* TestViewController.m */; };
+		BBAFC65423C2C8CC0027E810 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAFC65323C2C8CC0027E810 /* NewsViewController.m */; };
+		BBAFC65823C2CD2D0027E810 /* HtmlManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAFC65623C2CD2D0027E810 /* HtmlManager.m */; };
+		BBAFC65C23C2D7270027E810 /* 默认图@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBAFC65A23C2D7270027E810 /* 默认图@3x.png */; };
+		BBAFC65D23C2D7270027E810 /* 默认图@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBAFC65B23C2D7270027E810 /* 默认图@2x.png */; };
+		BBCEA88B23C7050900AD9EF6 /* ImageClickEvent.js in Resources */ = {isa = PBXBuildFile; fileRef = BBCEA88A23C7050900AD9EF6 /* ImageClickEvent.js */; };
+		BBCEA88D23C70B7C00AD9EF6 /* ImageLongPressEvent.js in Resources */ = {isa = PBXBuildFile; fileRef = BBCEA88C23C70B7C00AD9EF6 /* ImageLongPressEvent.js */; };
+		BBCEA89023C8320100AD9EF6 /* ContentTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCEA88F23C8320100AD9EF6 /* ContentTableView.m */; };
+		BBFB18E423A8BA43009CD0C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFB18E323A8BA43009CD0C1 /* AppDelegate.m */; };
+		BBFB18EF23A8BA49009CD0C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBFB18EE23A8BA49009CD0C1 /* Assets.xcassets */; };
+		BBFB18F523A8BA49009CD0C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFB18F423A8BA49009CD0C1 /* main.m */; };
+		BBFB18FD23A8BAC4009CD0C1 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFB18FC23A8BAC4009CD0C1 /* RootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5995301836652351EAAA16AA /* libPods-AveryTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AveryTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A74065B5A9A8D664BB109D1 /* Pods-AveryTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AveryTest.release.xcconfig"; path = "Target Support Files/Pods-AveryTest/Pods-AveryTest.release.xcconfig"; sourceTree = "<group>"; };
+		BBAFC63823C1DB070027E810 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BBAFC64423C2C7A30027E810 /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
+		BBAFC64523C2C7A30027E810 /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
+		BBAFC64723C2C7A30027E810 /* ContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentCell.m; sourceTree = "<group>"; };
+		BBAFC64823C2C7A30027E810 /* PageContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentView.m; sourceTree = "<group>"; };
+		BBAFC64923C2C7A30027E810 /* ContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentCell.h; sourceTree = "<group>"; };
+		BBAFC64A23C2C7A30027E810 /* PageContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentView.h; sourceTree = "<group>"; };
+		BBAFC64E23C2C7BA0027E810 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		BBAFC64F23C2C7BA0027E810 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		BBAFC65223C2C8CC0027E810 /* NewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		BBAFC65323C2C8CC0027E810 /* NewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		BBAFC65623C2CD2D0027E810 /* HtmlManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HtmlManager.m; sourceTree = "<group>"; };
+		BBAFC65723C2CD2D0027E810 /* HtmlManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtmlManager.h; sourceTree = "<group>"; };
+		BBAFC65A23C2D7270027E810 /* 默认图@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "默认图@3x.png"; sourceTree = "<group>"; };
+		BBAFC65B23C2D7270027E810 /* 默认图@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "默认图@2x.png"; sourceTree = "<group>"; };
+		BBCEA88A23C7050900AD9EF6 /* ImageClickEvent.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ImageClickEvent.js; sourceTree = "<group>"; };
+		BBCEA88C23C70B7C00AD9EF6 /* ImageLongPressEvent.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ImageLongPressEvent.js; sourceTree = "<group>"; };
+		BBCEA88E23C8320100AD9EF6 /* ContentTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContentTableView.h; sourceTree = "<group>"; };
+		BBCEA88F23C8320100AD9EF6 /* ContentTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContentTableView.m; sourceTree = "<group>"; };
+		BBFB18DF23A8BA43009CD0C1 /* AveryTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AveryTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBFB18E223A8BA43009CD0C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BBFB18E323A8BA43009CD0C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BBFB18EE23A8BA49009CD0C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBFB18F323A8BA49009CD0C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBFB18F423A8BA49009CD0C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BBFB18FB23A8BAC4009CD0C1 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		BBFB18FC23A8BAC4009CD0C1 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C276D85C3DA963D3C0533B4C /* Pods-AveryTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AveryTest.debug.xcconfig"; path = "Target Support Files/Pods-AveryTest/Pods-AveryTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBFB18DC23A8BA43009CD0C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D692A271F056851CED89B1D /* libPods-AveryTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		527C54F5D3D093FE3483753B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5995301836652351EAAA16AA /* libPods-AveryTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBAFC64223C2C7A30027E810 /* Table_CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				BBAFC64E23C2C7BA0027E810 /* TestViewController.h */,
+				BBAFC64F23C2C7BA0027E810 /* TestViewController.m */,
+				BBAFC64323C2C7A30027E810 /* ViewControllers */,
+				BBAFC64623C2C7A30027E810 /* Views */,
+			);
+			path = Table_CollectionView;
+			sourceTree = "<group>";
+		};
+		BBAFC64323C2C7A30027E810 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BBAFC64523C2C7A30027E810 /* PageContentViewController.h */,
+				BBAFC64423C2C7A30027E810 /* PageContentViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BBAFC64623C2C7A30027E810 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BBCEA88E23C8320100AD9EF6 /* ContentTableView.h */,
+				BBCEA88F23C8320100AD9EF6 /* ContentTableView.m */,
+				BBAFC64923C2C7A30027E810 /* ContentCell.h */,
+				BBAFC64723C2C7A30027E810 /* ContentCell.m */,
+				BBAFC64A23C2C7A30027E810 /* PageContentView.h */,
+				BBAFC64823C2C7A30027E810 /* PageContentView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BBAFC65123C2C81F0027E810 /* Scroll_Web_TableView */ = {
+			isa = PBXGroup;
+			children = (
+				BBAFC65223C2C8CC0027E810 /* NewsViewController.h */,
+				BBAFC65323C2C8CC0027E810 /* NewsViewController.m */,
+				BBCEA88A23C7050900AD9EF6 /* ImageClickEvent.js */,
+				BBCEA88C23C70B7C00AD9EF6 /* ImageLongPressEvent.js */,
+				BBAFC65523C2CD2D0027E810 /* HtmlManager */,
+			);
+			path = Scroll_Web_TableView;
+			sourceTree = "<group>";
+		};
+		BBAFC65523C2CD2D0027E810 /* HtmlManager */ = {
+			isa = PBXGroup;
+			children = (
+				BBAFC65723C2CD2D0027E810 /* HtmlManager.h */,
+				BBAFC65623C2CD2D0027E810 /* HtmlManager.m */,
+			);
+			path = HtmlManager;
+			sourceTree = "<group>";
+		};
+		BBAFC65923C2D7270027E810 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BBAFC65A23C2D7270027E810 /* 默认图@3x.png */,
+				BBAFC65B23C2D7270027E810 /* 默认图@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BBFB18D623A8BA43009CD0C1 = {
+			isa = PBXGroup;
+			children = (
+				BBFB18E123A8BA43009CD0C1 /* AveryTest */,
+				BBFB18E023A8BA43009CD0C1 /* Products */,
+				D86F766ECDD8731F1451DEC0 /* Pods */,
+				527C54F5D3D093FE3483753B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BBFB18E023A8BA43009CD0C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBFB18DF23A8BA43009CD0C1 /* AveryTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBFB18E123A8BA43009CD0C1 /* AveryTest */ = {
+			isa = PBXGroup;
+			children = (
+				BBFB18E223A8BA43009CD0C1 /* AppDelegate.h */,
+				BBFB18E323A8BA43009CD0C1 /* AppDelegate.m */,
+				BBFB18FB23A8BAC4009CD0C1 /* RootViewController.h */,
+				BBFB18FC23A8BAC4009CD0C1 /* RootViewController.m */,
+				BBAFC65123C2C81F0027E810 /* Scroll_Web_TableView */,
+				BBAFC64223C2C7A30027E810 /* Table_CollectionView */,
+				BBAFC65923C2D7270027E810 /* Resources */,
+				BBFB18EE23A8BA49009CD0C1 /* Assets.xcassets */,
+				BBFB18F323A8BA49009CD0C1 /* Info.plist */,
+				BBFB18F423A8BA49009CD0C1 /* main.m */,
+				BBAFC63823C1DB070027E810 /* PrefixHeader.pch */,
+			);
+			path = AveryTest;
+			sourceTree = "<group>";
+		};
+		D86F766ECDD8731F1451DEC0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C276D85C3DA963D3C0533B4C /* Pods-AveryTest.debug.xcconfig */,
+				9A74065B5A9A8D664BB109D1 /* Pods-AveryTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBFB18DE23A8BA43009CD0C1 /* AveryTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBFB18F823A8BA49009CD0C1 /* Build configuration list for PBXNativeTarget "AveryTest" */;
+			buildPhases = (
+				3374B5AF4DCBA801C914A596 /* [CP] Check Pods Manifest.lock */,
+				BBFB18DB23A8BA43009CD0C1 /* Sources */,
+				BBFB18DC23A8BA43009CD0C1 /* Frameworks */,
+				BBFB18DD23A8BA43009CD0C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AveryTest;
+			productName = AveryTest;
+			productReference = BBFB18DF23A8BA43009CD0C1 /* AveryTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBFB18D723A8BA43009CD0C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Avery;
+				TargetAttributes = {
+					BBFB18DE23A8BA43009CD0C1 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = BBFB18DA23A8BA43009CD0C1 /* Build configuration list for PBXProject "AveryTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBFB18D623A8BA43009CD0C1;
+			productRefGroup = BBFB18E023A8BA43009CD0C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBFB18DE23A8BA43009CD0C1 /* AveryTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBFB18DD23A8BA43009CD0C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBCEA88D23C70B7C00AD9EF6 /* ImageLongPressEvent.js in Resources */,
+				BBCEA88B23C7050900AD9EF6 /* ImageClickEvent.js in Resources */,
+				BBAFC65C23C2D7270027E810 /* 默认图@3x.png in Resources */,
+				BBFB18EF23A8BA49009CD0C1 /* Assets.xcassets in Resources */,
+				BBAFC65D23C2D7270027E810 /* 默认图@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3374B5AF4DCBA801C914A596 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AveryTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBFB18DB23A8BA43009CD0C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBAFC64D23C2C7A30027E810 /* PageContentView.m in Sources */,
+				BBAFC65823C2CD2D0027E810 /* HtmlManager.m in Sources */,
+				BBFB18E423A8BA43009CD0C1 /* AppDelegate.m in Sources */,
+				BBAFC65023C2C7BA0027E810 /* TestViewController.m in Sources */,
+				BBAFC65423C2C8CC0027E810 /* NewsViewController.m in Sources */,
+				BBFB18F523A8BA49009CD0C1 /* main.m in Sources */,
+				BBAFC64B23C2C7A30027E810 /* PageContentViewController.m in Sources */,
+				BBCEA89023C8320100AD9EF6 /* ContentTableView.m in Sources */,
+				BBFB18FD23A8BAC4009CD0C1 /* RootViewController.m in Sources */,
+				BBAFC64C23C2C7A30027E810 /* ContentCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BBFB18F623A8BA49009CD0C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BBFB18F723A8BA49009CD0C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBFB18F923A8BA49009CD0C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C276D85C3DA963D3C0533B4C /* Pods-AveryTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9YF9J5KM6;
+				GCC_PREFIX_HEADER = AveryTest/PrefixHeader.pch;
+				INFOPLIST_FILE = AveryTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.avery.AveryTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BBFB18FA23A8BA49009CD0C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A74065B5A9A8D664BB109D1 /* Pods-AveryTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9YF9J5KM6;
+				GCC_PREFIX_HEADER = AveryTest/PrefixHeader.pch;
+				INFOPLIST_FILE = AveryTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.avery.AveryTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBFB18DA23A8BA43009CD0C1 /* Build configuration list for PBXProject "AveryTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBFB18F623A8BA49009CD0C1 /* Debug */,
+				BBFB18F723A8BA49009CD0C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBFB18F823A8BA49009CD0C1 /* Build configuration list for PBXNativeTarget "AveryTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBFB18F923A8BA49009CD0C1 /* Debug */,
+				BBFB18FA23A8BA49009CD0C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBFB18D723A8BA43009CD0C1 /* Project object */;
+}
